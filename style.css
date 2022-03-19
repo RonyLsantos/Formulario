@@ -1,0 +1,156 @@
+:root{
+    --input-linear: linear-gradient(45deg, #1cafef, #052330);
+    --background: rgba(0, 0, 0, 0.8);
+    --flit-app: #1cafef;
+}
+ /*  CSS do Login   */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: var(--input-linear);
+   
+}
+
+.card-login{
+    background-color: var(--background);
+    position: absolute;
+    top: 160px;
+    left: 550px; 
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.input-card{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    }
+.email-login{
+    height: 20px;
+    width: 100%;
+    box-sizing: 8px;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.senha-login{
+    height: 20px;
+    width: 100%;
+    box-sizing: 8px;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.button-login{
+    background-image:var(--input-linear);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-size: 200%;
+    outline: none;
+    position: relative;
+    height: 48px;
+    border: unset
+}
+
+.button-login:hover{
+    background-position: right;
+}
+ /*  CSS do formulario   */
+.box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:var(--background);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+fieldset{
+    border: 3px solid var(--flit-app);
+}
+
+.legend{
+    border: 1px solid var(--flit-app);
+    padding: 10px;
+    text-align: center;
+    background-color: var(--flit-app);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+    color: white;
+
+}
+
+.data_contratação{
+    color: white;
+
+}
+
+
+.input-user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 2px;
+    
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-user:focus ~ .labelInput,
+.input-user:valid ~ .labelInput{
+    top: -10px;
+    font-size: 12px;
+    color: var(--flit-app)
+}
+
+#data_contrataçao{
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: var(--input-linear);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    background-size: 200%;
+    outline: none;
+    position: relative;
+    height: 48px;
+    border: unset
+}
+
+#submit:hover{
+    background-position: right;
+}
+

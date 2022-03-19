@@ -1,0 +1,27 @@
+Create database formulario
+
+create table usuarios
+
+id int auto-increment primary
+
+referencia VARCHAR(45) 
+
+nome VARCHAR(45)
+
+email VARCHAR(45)
+
+senha VARCHAR(45)
+
+cpf VARCHAR(45)
+
+data_contratacao data(45)
+
+rua VARCHAR(45)
+
+cep VARCHAR(45)
+
+bairro VARCHAR(45)
+
+cidade VARCHAR(45)
+
+estado VARCHAR(45)
